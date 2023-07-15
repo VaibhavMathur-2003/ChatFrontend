@@ -15,7 +15,7 @@ export default function People({ contacts, changeChat }) {
       setCurrentUserName(data.username);
     }
     stg();
-  },);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   const changeCurrentChat = (index, contact) => {
     setCurrentSelected(index);
     changeChat(contact);

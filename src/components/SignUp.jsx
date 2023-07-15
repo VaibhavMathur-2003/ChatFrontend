@@ -26,7 +26,7 @@ export default function SignUp() {
     if (localStorage.getItem("chat-app-current-user")) {
       navigate("/");
     }
-  }, );
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleChange = (event) => {
     setValues({ ...values, [event.target.name]: event.target.value });

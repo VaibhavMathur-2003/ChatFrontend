@@ -27,7 +27,7 @@ export default function Chat() {
     }
     lcl();
     
-  }, );
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (currentUser) {
       socket.current = io(`https://server-vaibhavmathur2003.onrender.com`);

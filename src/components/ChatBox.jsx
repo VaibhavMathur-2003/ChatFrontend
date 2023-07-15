@@ -64,7 +64,7 @@ export default function ChatBox({ currentChat, socket }) {
         setArrivalMessage({ fromSelf: false, message: msg });
       });
     }
-  }, );
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     arrivalMessage && setMessages((prev) => [...prev, arrivalMessage]);
