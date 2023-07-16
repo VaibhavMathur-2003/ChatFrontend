@@ -69,7 +69,7 @@ export default function Login() {
           <div>
             <img src={logoImg} alt="" />
           </div>
-            <h1>ɈɒʜƆ</h1>
+            <h1>ʞɔiυϘ Convo</h1>
           </div>
           <input
             type="text"

@@ -28,7 +28,7 @@ export default function People({ contacts, changeChat }) {
             <div>
               <img src={logoImg} alt="" />
             </div>
-            <h1>ɈɒʜƆ</h1>
+            <h1>ʞɔiυϘ Convo</h1>
           </div>
           <div className="contacts">
             {contacts.map((contact, index) => {
