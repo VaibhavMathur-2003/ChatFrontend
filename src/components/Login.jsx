@@ -91,7 +91,7 @@ export default function Login() {
           <span style={{textAlign:"center"}}>
             <Link to="/register">Create Account.</Link>
           </span>
-          <button type="button" onClick={handleEnterAsGuest}>
+          <button type="submit" onClick={handleEnterAsGuest}>
             Enter as Guest
           </button>
         </form>
