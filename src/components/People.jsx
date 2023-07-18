@@ -12,7 +12,9 @@ export default function People({ contacts, changeChat }) {
       const data = await JSON.parse(
         localStorage.getItem("chat-app-current-user")
       );
-      setCurrentUserName(data.username);
+      if(data){
+        setCurrentUserName(data.username);
+      }
     }
     stg();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
