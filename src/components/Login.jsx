@@ -37,6 +37,9 @@ export default function Login() {
     }
     return true;
   };
+  const handleEnterAsGuest = () => {
+    setValues({ username: "Guest", password: "12345678" });
+  };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -69,7 +72,7 @@ export default function Login() {
           <div>
             <img src={logoImg} alt="" />
           </div>
-            <h1>ʞɔiυϘ Convo</h1>
+            <h1>ʞɔiuϘ Convo</h1>
           </div>
           <input
             type="text"
@@ -88,6 +91,9 @@ export default function Login() {
           <span style={{textAlign:"center"}}>
             <Link to="/register">Create Account.</Link>
           </span>
+          <button type="button" onClick={handleEnterAsGuest}>
+            Enter as Guest
+          </button>
         </form>
       </div>
       <ToastContainer />

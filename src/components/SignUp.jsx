@@ -92,7 +92,7 @@ export default function SignUp() {
             <img src={logoImg} alt="" />
           </div>
 
-            <h1>ʞɔiυϘ Convo</h1>
+            <h1>ʞɔiuϘ Convo</h1>
           </div>
           <input
             type="text"
