@@ -33,3 +33,8 @@
     grid-template-columns: 65% 35%;
   }
 }
+@media screen and (max-width: 840px) {
+  .Container .container {
+    width: 97vw;
+  }
+}

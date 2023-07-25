@@ -10,6 +10,7 @@
     align-items: center;
     gap: 1rem;
     justify-content: center;
+    font-size: clamp(0rem, .2rem + .6vw, .6rem);
   }
   
   .Container .brand img {
@@ -85,4 +86,8 @@
       font-size: 1rem;
     }
   }
-  
+  @media screen and (max-width: 450px) {
+    .Container .brand h1{
+      display: none;
+  }
+}
