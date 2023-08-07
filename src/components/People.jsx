@@ -99,11 +99,10 @@ const Container = styled.div`
     }
     .contact {
       background-color: #39FF14;
-      min-height: 5rem;
+      /* min-height: 5rem; */
       cursor: pointer;
       width: 90%;
       border-radius: 0.2rem;
-      padding: 0.4rem;
       display: flex;
       gap: 1rem;
       align-items: center;

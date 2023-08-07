@@ -72,7 +72,7 @@ export default function Login() {
           <div>
             <img src={logoImg} alt="" />
           </div>
-            <h1>ʞɔiuϘ Convo</h1>
+            <h1 className="title">ʞɔiuϘ Convo</h1>
           </div>
           <input
             type="text"

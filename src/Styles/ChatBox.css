@@ -14,7 +14,7 @@
 .ContainerChat .chat-header {
   display: flex;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
 }
 
 .ContainerChat .chat-header .user-details {
@@ -22,13 +22,15 @@
   align-items: center;
   flex: 1;
   justify-content: center;
-  gap: 1rem;
+  /* gap: 1rem; */
 }
 
 .ContainerChat .chat-header .user-details .username h3 {
   color: rgb(0, 0, 0);
   background-color: rgb(154, 134, 243);
   padding: 0.8rem;
+  font-size: clamp(1rem, .2rem + 2vw, 1.2rem);
+
   border-radius: 1rem;
 }
 
@@ -85,6 +87,7 @@
 
 .ContainerChat .chat-messages .sended {
   justify-content: flex-end;
+  margin-right: 15px;
 }
 
 .ContainerChat .chat-messages .sended .content {

@@ -27,7 +27,9 @@
   .FormContainer .brand h1 {
     color: white;
     text-transform: uppercase;
+    font-size: clamp(1.2rem, .5rem + 3vw, 3rem);
   }
+  
   
   .FormContainer form {
     display: flex;
@@ -59,9 +61,10 @@
     padding: 1rem 2rem;
     border: none;
     font-weight: bold;
+
     cursor: pointer;
     border-radius: 0.4rem;
-    font-size: 1rem;
+    font-size: clamp(.8rem, .5rem + 1vw, 1.2rem);
     text-transform: uppercase;
   }
   
@@ -80,4 +83,13 @@
     font-weight: bold;
   }
 
-  
+  @media screen and (max-width: 780px) {
+    .FormContainer form{
+      width: 80%;
+  }
+}
+  @media screen and (max-width: 425px) {
+    .FormContainer form{
+      width: 90%;
+  }
+  }
